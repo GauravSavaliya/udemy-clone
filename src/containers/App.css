@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.app .app__body {
+  flex: 1;
+}
+.app .app__ads {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdacb;
+  border-top: 1px solid #dcdacb;
+  width: 98%;
+  padding: 2.5em 0;
+}
+.app .app__ads .ad:first-of-type {
+  margin-left: 4em;
+}
+.app .app__companies {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid #dcdacb;
+  border-top: 1px solid #dcdacb;
+  padding: 2em 0;
+  width: 98%;
+}
+.app .app__companies h3 {
+  color: #3c3b37;
+  font-size: 1.6rem;
+  margin-bottom: 1em;
+}
+.app .app__companies .app__logos {
+  display: flex;
+  gap: 1.5em;
+  padding: 1xem;
+}

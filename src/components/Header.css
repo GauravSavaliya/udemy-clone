@@ -1,0 +1,100 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0.8em;
+  background: white;
+  z-index: 100;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+.header__logo {
+  object-fit: contain;
+  height: 1.95em;
+}
+.header__search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0 0.5em;
+}
+.header .header__search p {
+  font-size: 0.88rem;
+  margin: 0 0.7em;
+  letter-spacing: -0.5px;
+  color: #3c3b37;
+}
+.header__searchbar {
+  flex: 1;
+  display: flex;
+  border: 1px solid #989586;
+  border-radius: 9999px;
+  overflow: hidden;
+  padding: 0.2em 0.7em;
+  background: #fbfbfb;
+}
+.header .header__search .header__searchbar input {
+  flex: 1;
+  padding: 0.8em 1em;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+.header .header__search .header__searchbar button {
+  order: -1;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__cart {
+  position: relative;
+  padding-top: 0.3em;
+  margin: 0 0.7em;
+}
+.header__cartLogo {
+  object-fit: contain;
+  height: 1.5rem;
+  fill: #675c55;
+}
+.header__quantity {
+  background: #ec5252;
+  padding: 0.2em 0.6em;
+  color: white;
+  font-weight: 500;
+  border-radius: 48%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  font-size: 0.8em;
+}
+.header__btn {
+  padding: 0.8em 2em;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin: 0 0.5em;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid;
+}
+.header__login {
+  background: #fff;
+  border-color: #0f7c90;
+  color: #0f7c90;
+}
+.header__login:hover {
+  border-color: #094c59;
+  color: #094c59;
+}
+.header__signup {
+  background: #0f7c90;
+  color: #fff;
+  border-color: #0f7c90;
+}
+.header__signup:hover {
+  border-color: #094c59;
+  background: #094c59;
+}

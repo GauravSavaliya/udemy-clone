@@ -1,0 +1,22 @@
+.facility {
+  display: grid;
+  place-items: center;
+  height: 20em;
+  margin: 6em 0;
+}
+.facility .facility__data {
+  display: flex;
+  align-items: center;
+  gap: 6em;
+}
+.facility .facility__data img {
+  margin-top: -2em;
+  object-fit: contain;
+  height: 24em;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.facility .facility__data .facility__info {
+  width: 400px;
+  order: 1;
+}

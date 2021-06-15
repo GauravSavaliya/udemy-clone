@@ -1,0 +1,33 @@
+.ad {
+  display: flex;
+  align-items: center;
+}
+
+.ad .ad__icon {
+  display: grid;
+  place-items: center;
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background: #f2fbfc;
+  margin-right: 1em;
+}
+
+.ad .ad__icon svg {
+  fill: #0f7c90;
+  object-fit: contain;
+  height: 1.25em;
+}
+
+.ad .ad__info {
+  color: #3c3b37;
+}
+
+.ad .ad__info .ad__title {
+  font-size: 1rem;
+}
+
+.ad .ad__info .ad__description {
+  font-size: 0.9rem;
+  width: 260px;
+}

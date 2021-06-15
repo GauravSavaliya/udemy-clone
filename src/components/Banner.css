@@ -1,0 +1,49 @@
+.banner {
+  position: relative;
+  background-image: url(../images/Banner1.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 100%;
+  align-items: center;
+  margin-bottom: -0.2em;
+}
+.banner .banner__modal {
+  position: absolute;
+  top: 15%;
+  left: 4%;
+  background: #fff;
+  padding: 1.5em;
+  width: 450px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.banner .banner__modal h1 {
+  color: #3c3b37;
+  font-size: 2.8rem;
+}
+.banner .banner__modal p {
+  font-size: 1.18rem;
+  margin-bottom: 0.5em;
+  color: #3c3b37;
+}
+.banner .banner__modal .banner__form {
+  display: flex;
+  border: 1px solid #989586;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.banner .banner__modal .banner__form input {
+  flex: 1;
+  outline: none;
+  border: none;
+  padding-left: 1em;
+}
+.banner .banner__modal .banner__form input::placeholder {
+  font-size: 1rem;
+}
+.banner .banner__modal .banner__form button {
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 0.8em;
+  cursor: pointer;
+}

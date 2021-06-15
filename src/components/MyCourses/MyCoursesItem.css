@@ -1,0 +1,40 @@
+.myCoursesItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(226, 226, 226);
+  margin: 10px;
+  width: 250px;
+}
+
+.myCoursesItem__info {
+  padding: 20px 15px;
+}
+
+.myCoursesItem__info .myCoursesItem__title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #29303b;
+}
+
+.myCoursesItem__info .myCoursesItem__author {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #686868;
+}
+
+.myCoursesItem__down {
+  padding: 0 15px;
+}
+
+.myCoursesItem__down p {
+  color: #007791;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.myCoursesItem__down p:hover {
+  color: #02596d;
+}

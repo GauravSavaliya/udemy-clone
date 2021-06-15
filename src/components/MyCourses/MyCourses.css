@@ -1,0 +1,30 @@
+.myCourses__top {
+  background: #505763;
+  color: #fff;
+  padding: 3em 7em;
+}
+
+.myCourses__top h3 {
+  font-size: 2.1rem;
+  font-weight: normal;
+}
+
+.myCourses__info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 7em;
+}
+
+.cannotfind {
+  margin: 0 70px;
+  padding-bottom: 230px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(80, 80, 80);
+}
+
+.browse {
+  color: #0f7c90;
+  font-weight: 700;
+  text-decoration: none;
+}
